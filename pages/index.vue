@@ -57,26 +57,26 @@
 
         <experience
           title="Software Developer"
-          when="May 2018 - Present day | Remote"
+          when="May 2018 - Present day (1 year) | Remote"
           company="Surgio"
         >
-          <p>I work as a Software Developer for <a target="_blank" class="text-grey-darkest" href="https://surg.io/">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by implementing technologies like Vue for the frontend and work with the team to standardize the full application code base.</p>
+          <p>I work as a Software Developer for <a target="_blank" class="text-grey-darkest" href="https://surg.io/">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by implementing technologies like Vue for the frontend and work with the team to add even more features and standardize the full application code base.</p>
         </experience>
 
         <experience
           title="Founder & Developer"
-          when="Feb 2009 - Present day | Mexico City"
+          when="Feb 2009 - Present day (9 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I founded <a target="_blank" class="text-grey-darkest" href="https://www.vexilo.com/">Vexilo</a> a software development company where I personally developed more than 50 succesfully websites and web application for all kind of companies in Mexico.</p>
+          <p>I founded <a target="_blank" class="text-grey-darkest" href="https://www.vexilo.com/">Vexilo</a> a software development company where I personally developed more than 50 succesfully websites and web application for all kind of companies of all sizes in Mexico.</p>
         </experience>
 
         <experience
           title="Software developer"
-          when="Aug 2007 - Jan 2009 | Mexico City"
+          when="Aug 2007 - Jan 2009 (2 years) | Mexico City"
           company="Ingenia Agency"
         >
-          <p>Worked for Ingenia Agency one of the biggest digital agencies in Mexico City where I developed successful websites, e-commerce and web applications for some of the important companies in Mexico City, like Brother Mexico, Coca-Cola, Megacable, etc.</p>
+          <p>Worked for Ingenia Agency one of the biggest digital agencies in Mexico City where I developed a lot of successful websites, e-commerce and web applications for some of the important companies in Mexico City, like Brother Mexico, Coca-Cola, Megacable, etc.</p>
         </experience>
 
         <block-header class="mt-10" icon="graduation-hat">
