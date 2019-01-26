@@ -152,28 +152,18 @@
 
           <h4 class="font-sans">Techs & Metodologies</h4>
           <ul class="list-reset mb-10">
+            <skill :progress="99">MySQL/MariaDB</skill>
+            <skill :progress="99">PostgreSQL</skill>
+            <skill :progress="70">Redis</skill>
+            <skill :progress="60">Elastic Search</skill>
             <skill :progress="90">TDD</skill>
             <skill :progress="90">Restful APIs</skill>
             <skill :progress="70">Scrum</skill>
             <skill :progress="70">CI</skill>
-            <skill :progress="90">Sass</skill>
+            <skill :progress="90">Sass/Less/Stylus</skill>
             <skill :progress="90">Webpack</skill>
             <skill :progress="70">AWS</skill>
-            <skill :progress="70">Redis</skill>
-            <skill :progress="60">Elastic Search</skill>
-            <skill :progress="30">Apache Cordova</skill>
-          </ul>
-
-          <h4 class="font-sans">Other Techs</h4>
-          <ul class="list-reset mb-10">
-            <skill :progress="99">MySQL/MariaDB</skill>
-            <skill :progress="99">PostgreSQL</skill>
-            <skill :progress="70">Redis</skill>
-            <skill :progress="80">Sass</skill>
-            <skill :progress="80">Webpack</skill>
-            <skill :progress="70">AWS</skill>
             <skill :progress="80">Linux Servers</skill>
-            <skill :progress="60">Elastic Search</skill>
             <skill :progress="30">Apache Cordova</skill>
           </ul>
 
@@ -186,6 +176,10 @@
             <li class="mt-2">
               <i class="icon-checkmark mr-1" />
               Responsible
+            </li>
+            <li class="mt-2">
+              <i class="icon-checkmark mr-1" />
+              Proactive
             </li>
             <li class="mt-2">
               <i class="icon-checkmark mr-1" />

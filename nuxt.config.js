@@ -23,7 +23,10 @@ module.exports = {
   ** Load nuxt modules
   */
   modules: [
-    'nuxt-purgecss'
+    'nuxt-purgecss',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-133290786-1'
+    }]
   ],
   /*
   ** PurgeCSS
@@ -38,10 +41,6 @@ module.exports = {
       'icon-briefcase'
     ]
   },
-
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false }
-  ],
 
   /*
   ** This option is given directly to the vue-router Router constructor
