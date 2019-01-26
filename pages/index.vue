@@ -6,7 +6,7 @@
           <span class="rounded-full overflow-hidden">
             <img
               class="rounded-full overflow-hidden"
-              src="photo_sm.png"
+              src="photo.png"
               alt="Alfonso Bribiesca Espinosa"
             >
           </span>
