@@ -30,7 +30,13 @@ module.exports = {
   ** https://github.com/Developmint/nuxt-purgecss
   */
   purgeCSS: {
-    whitelist: ['icon-hammer-wrench', 'icon-graduation-hat', 'icon-bicycle2', 'icon-network', 'icon-briefcase']
+    whitelist: [
+      'icon-hammer-wrench',
+      'icon-graduation-hat',
+      'icon-bicycle2',
+      'icon-network',
+      'icon-briefcase'
+    ]
   },
 
   plugins: [
