@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto py-10 font-serif">
     <div>
-      <div class="flex -mx-4 items-center">
-        <div class="px-4 flex-no-shrink">
+      <div class="md:flex md:-mx-4 items-center">
+        <div class="px-4 flex-no-shrink text-center">
           <span class="rounded-full overflow-hidden">
             <img
               class="rounded-full overflow-hidden"
@@ -12,7 +12,7 @@
           </span>
         </div>
         <div class="px-4">
-          <h1 class="uppercase font-sans text-5xl">
+          <h1 class="uppercase font-sans text-5xl text-center py-5 md:py-0 md:text-left">
             Alfonso Bribiesca
           </h1>
           <p class="font-serif text-2xl italic">
@@ -20,7 +20,7 @@
           </p>
         </div>
 
-        <div class="px-4">
+        <div class="px-4 mt-8 md:mt-0">
           <h2 class="text-sm uppercase font-sans">
             Contact me
           </h2>
@@ -49,8 +49,8 @@
       </div>
     </div>
 
-    <div class="flex -mx-4 mt-20">
-      <div class="w-3/5 px-5">
+    <div class="md:flex md:-mx-4 mt-8 md:mt-20">
+      <div class="md:w-3/5 px-4 pb-8">
         <block-header>
           Experience
         </block-header>
@@ -125,7 +125,7 @@
           <p>I studied Systems Engineering at La Salle University one of the most recognized private University in Mexico where I got my degree by a meritorious average and where I achieve one of the highest grades of my generation.</p>
         </experience>
       </div>
-      <div class="w-2/5 px-4">
+      <div class="md:w-2/5 px-4">
         <block-header icon="hammer-wrench">
           Skills & Knowledge
         </block-header>
@@ -239,8 +239,7 @@ export default {
     Skill
   },
   head: {
-    title: 'Welcome',
-    meta: [{ hid: 'description', name: 'description', content: 'Welcome' }]
+    title: 'My Personal Resume'
   }
 }
 </script>

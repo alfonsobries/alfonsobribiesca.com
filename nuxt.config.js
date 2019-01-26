@@ -3,12 +3,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s | alfonsobribiesca',
+    titleTemplate: '%s | Alfonso Bribiesca',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Alfonso Bribiesca Cv' }
+      { hid: 'description', name: 'description', content: 'Alfonso Bribiesca Personal Resume' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Condensed' },
@@ -29,7 +29,9 @@ module.exports = {
   ** PurgeCSS
   ** https://github.com/Developmint/nuxt-purgecss
   */
-  purgeCSS: {},
+  purgeCSS: {
+    whitelist: ['icon-hammer-wrench', 'icon-graduation-hat', 'icon-bicycle2', 'icon-network', 'icon-briefcase']
+  },
   /*
   ** This option is given directly to the vue-router Router constructor
   */
