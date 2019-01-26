@@ -190,9 +190,12 @@
               Passionate
             </li>
           </ul>
+
+          <h4 class="font-sans">Latest Github Activity</h4>
+          <github-heatmap><span class="py-4 block">Loading...</span></github-heatmap>
         </div>
 
-        <block-header class="mt-10" icon="bicycle2">
+        <block-header class="" icon="bicycle2">
           Hobbies
         </block-header>
         <ul class="list-reset pl-10">
@@ -205,6 +208,7 @@
         <block-header class="mt-10" icon="network">
           More
         </block-header>
+
         <ul class="list-reset pl-10">
           <li class="pt-1 whitespace-no-wrap">
             <i class="icon-github mr-1" />
@@ -228,11 +232,14 @@
 import BlockHeader from '~/components/BlockHeader'
 import Experience from '~/components/Experience'
 import Skill from '~/components/Skill'
+import GithubHeatmap from '~/components/GithubHeatmap'
+
 export default {
   components: {
     BlockHeader,
     Experience,
-    Skill
+    Skill,
+    GithubHeatmap
   },
   head: {
     title: 'My Personal Resume'
