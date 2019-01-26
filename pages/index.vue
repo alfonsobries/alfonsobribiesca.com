@@ -40,7 +40,7 @@
             </li>
             <li class="pt-1 whitespace-no-wrap">
               <i class="icon-twitter mr-1" />
-              <a class="text-grey-darkest no-underline hover:underline" target="_blank" href="https://twitter.com/alfonsobries">
+              <a class="text-grey-darkest no-underline hover:underline" rel="noopener" target="_blank" href="https://twitter.com/alfonsobries">
                 @alfonsobries
               </a>
             </li>
@@ -60,7 +60,7 @@
           when="May 2018 - Present day (1 year) | Remote"
           company="Surgio"
         >
-          <p>I work as a Software Developer for <a target="_blank" class="text-grey-darkest" href="https://surg.io/">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by implementing technologies like Vue for the frontend and work with the team to add even more features and standardize the full application code base.</p>
+          <p>I work as a Software Developer for <a target="_blank" rel="noopener" class="text-grey-darkest" href="https://surg.io/">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by implementing technologies like Vue for the frontend and work with the team to add even more features and standardize the full application code base.</p>
         </experience>
 
         <experience
@@ -68,7 +68,7 @@
           when="Feb 2009 - Present day (9 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I founded <a target="_blank" class="text-grey-darkest" href="https://www.vexilo.com/">Vexilo</a> a software development company where I personally developed more than 50 succesfully websites and web application for all kind of companies of all sizes in Mexico.</p>
+          <p>I founded <a target="_blank" class="text-grey-darkest" rel="noopener" href="https://www.vexilo.com/">Vexilo</a> a software development company where I personally developed more than 50 succesfully websites and web application for all kind of companies of all sizes in Mexico.</p>
         </experience>
 
         <experience
@@ -92,7 +92,7 @@
           <ul class="list-reset">
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
-              <span>PHP, Vue, Laravel, & TDD Courses at <a class="text-grey-darkest" href="https://laracasts.com/" target="_blank">Laracasts</a></span>
+              <span>PHP, Vue, Laravel, & TDD Courses at <a class="text-grey-darkest" rel="noopener" href="https://laracasts.com/" target="_blank">Laracasts</a></span>
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
@@ -214,13 +214,13 @@
         <ul class="list-reset pl-10">
           <li class="pt-1 whitespace-no-wrap">
             <i class="icon-github mr-1" />
-            <a class="text-grey-darkest no-underline hover:underline" href="https://github.com/alfonsobries" target="_blank">
+            <a class="text-grey-darkest no-underline hover:underline" rel="noopener" href="https://github.com/alfonsobries" target="_blank">
               /alfonsobries
             </a>
           </li>
           <li class="pt-1 whitespace-no-wrap">
             <i class="icon-earth mr-1" />
-            <a class="text-grey-darkest no-underline hover:underline" href="https://www.vexilo.com" target="_blank">
+            <a class="text-grey-darkest no-underline hover:underline" rel="noopener" href="https://www.vexilo.com" target="_blank">
               vexilo.com
             </a>
           </li>
