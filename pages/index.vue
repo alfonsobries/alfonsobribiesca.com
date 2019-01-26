@@ -166,13 +166,15 @@
 
           <h4 class="font-sans">Other Techs</h4>
           <ul class="list-reset mb-10">
+            <skill :progress="99">MySQL/MariaDB</skill>
+            <skill :progress="99">PostgreSQL</skill>
+            <skill :progress="70">Redis</skill>
             <skill :progress="80">Sass</skill>
             <skill :progress="80">Webpack</skill>
             <skill :progress="70">AWS</skill>
-            <skill :progress="70">Redis</skill>
+            <skill :progress="80">Linux Servers</skill>
             <skill :progress="60">Elastic Search</skill>
             <skill :progress="30">Apache Cordova</skill>
-            <skill :progress="30">Linux</skill>
           </ul>
 
           <h4 class="font-sans mb-4">Personal</h4>
