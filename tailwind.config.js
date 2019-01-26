@@ -166,8 +166,8 @@ module.exports = {
   screens: {
     'sm': '576px',
     'md': '768px',
-    'lg': '992px',
-    'xl': '1200px'
+    // 'lg': '992px',
+    // 'xl': '1200px'
   },
 
   /*
@@ -190,29 +190,11 @@ module.exports = {
 
   fonts: {
     'sans': [
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
+      'Roboto Condensed',
       'sans-serif'
     ],
     'serif': [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
+      'PT Serif',
       'serif'
     ],
     'mono': [
