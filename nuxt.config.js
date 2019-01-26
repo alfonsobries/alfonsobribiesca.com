@@ -32,6 +32,11 @@ module.exports = {
   purgeCSS: {
     whitelist: ['icon-hammer-wrench', 'icon-graduation-hat', 'icon-bicycle2', 'icon-network', 'icon-briefcase']
   },
+
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ],
+
   /*
   ** This option is given directly to the vue-router Router constructor
   */
