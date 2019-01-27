@@ -136,6 +136,7 @@
             <skill :progress="99">Laravel</skill>
             <skill :progress="99">VueJs</skill>
             <skill :progress="99">NuxtJS</skill>
+            <skill :progress="99">Vuex</skill>
             <skill :progress="99">Tailwind</skill>
             <skill :progress="99">Bootstrap</skill>
             <skill :progress="20">React</skill>
