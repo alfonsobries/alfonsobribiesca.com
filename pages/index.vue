@@ -103,7 +103,7 @@
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
-              <span>ES6 for Everyone by Wesbos</span>
+              <span>ES6 for Everyone & React for beginners by Wesbos</span>
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
