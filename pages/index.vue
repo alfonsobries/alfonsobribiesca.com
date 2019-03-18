@@ -86,9 +86,8 @@
         <experience
           title="Online Courses & Self Learning"
           when="Continual"
-          company="Online Courses & Self Learning"
         >
-          <p class="mb-2">I am passionate about self-learning and I usually take multiple courses, especially online. Some of my favorites includes:</p>
+          <p class="mb-2">I'm used to taking all kind of online courses as my main source of new knowledge. Some of my favourites include:</p>
           <ul class="list-reset">
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
@@ -139,13 +138,13 @@
             <skill :progress="99">Vuex</skill>
             <skill :progress="99">Tailwind</skill>
             <skill :progress="99">Bootstrap</skill>
-            <skill :progress="20">React</skill>
+            <skill :progress="50">React</skill>
           </ul>
           <h4 class="font-sans">Programmatic Languages</h4>
           <ul class="list-reset mb-10">
             <skill :progress="99">PHP</skill>
             <skill :progress="95">SQL</skill>
-            <skill :progress="90">JS</skill>
+            <skill :progress="95">JS</skill>
             <skill :progress="20">Ruby</skill>
             <skill :progress="20">Java</skill>
             <skill :progress="20">.NET</skill>
@@ -201,7 +200,7 @@
         </block-header>
         <ul class="list-reset pl-10">
           <li class="mt-2">Runner</li>
-          <li class="mt-2">Triathlon Enthusiast</li>
+          <li class="mt-2">Triathlon Amateur</li>
           <li class="mt-2">Bookworm</li>
           <li class="mt-2">Entrepreneurship</li>
         </ul>
