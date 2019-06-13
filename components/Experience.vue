@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex">
+    <div v-if="when" class="flex">
       <span class="w-10">
         <span class="text-lg w-8 pl-1 text-grey-darker flex-no-shrink">
           ●
@@ -16,6 +16,16 @@
         <slot />
       </div>
     </div>
+    <div v-if="website" class="flex -mt-8">
+      <span class="w-10">
+        <span class="text-lg w-8 pl-1 text-grey-darker flex-no-shrink">
+          <span class="icon-network" />
+        </span>
+      </span>
+      <span class="text-sm">
+        <a class="text-grey-darkest no-underline hover:underline" target="_blank" :href="website">{{ website }}</a>
+      </span>
+    </div>
   </div>
 </template>
 
@@ -27,6 +37,10 @@ export default {
       default: null
     },
     when: {
+      type: String,
+      default: null
+    },
+    website: {
       type: String,
       default: null
     },

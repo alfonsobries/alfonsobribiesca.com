@@ -13,24 +13,24 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.3.4",
+    "nuxt": "^2.8.1",
     "nuxt-purgecss": "^0.2.1",
     "tailwindcss": "^0.7.3"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/google-analytics": "^2.2.0",
     "@vue/eslint-config-standard": "^4.0.0",
-    "autoprefixer": "^9.4.6",
-    "axios": "^0.18.0",
+    "autoprefixer": "^9.6.0",
+    "axios": "^0.18.1",
     "babel-eslint": "^10.0.1",
-    "cssnano": "^4.1.8",
-    "eslint": "^5.12.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^5.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "postcss-preset-env": "^6.5.0",
+    "postcss-preset-env": "^6.6.0",
     "postcss-url": "^8.0.0"
   }
 }

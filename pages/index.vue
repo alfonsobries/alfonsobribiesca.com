@@ -79,6 +79,19 @@
           <p>Worked for Ingenia Agency one of the biggest digital agencies in Mexico City where I developed a lot of successful websites, e-commerce and web applications for some of the important companies in Mexico City, like Brother Mexico, Coca-Cola, Megacable, etc.</p>
         </experience>
 
+        <block-header class="mt-10" icon="code">
+          Open Source & Personal Projects
+        </block-header>
+
+        <experience
+          title="Vue Tailwind"
+          website="https://vue-tailwind.com/"
+        >
+          <p class="mb-2">
+            VueTailwind is a library of Vue components with a fully configurable theme classes that don't depend on any CSS frameworks but are by default styled with TailwindCSS.
+          </p>
+        </experience>
+
         <block-header class="mt-10" icon="graduation-hat">
           Education
         </block-header>
@@ -87,7 +100,9 @@
           title="Online Courses & Self Learning"
           when="Continual"
         >
-          <p class="mb-2">I'm used to taking all kind of online courses as my main source of new knowledge. Some of my favourites include:</p>
+          <p class="mb-2">
+            I'm used to taking all kind of online courses as my main source of new knowledge. Some of my favourites include:
+          </p>
           <ul class="list-reset">
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
@@ -130,44 +145,107 @@
         </block-header>
 
         <div class="pl-10">
-          <h4 class="font-sans">Frameworks & Tools</h4>
+          <h4 class="font-sans">
+            Frameworks & Tools
+          </h4>
           <ul class="list-reset mb-10">
-            <skill :progress="99">Laravel</skill>
-            <skill :progress="99">VueJs</skill>
-            <skill :progress="99">NuxtJS</skill>
-            <skill :progress="99">Vuex</skill>
-            <skill :progress="99">Tailwind</skill>
-            <skill :progress="99">Bootstrap</skill>
-            <skill :progress="50">React</skill>
+            <skill :progress="99">
+              Laravel
+            </skill>
+            <skill :progress="99">
+              VueJs
+            </skill>
+            <skill :progress="99">
+              NuxtJS
+            </skill>
+            <skill :progress="99">
+              Vuex
+            </skill>
+            <skill :progress="99">
+              Tailwind
+            </skill>
+            <skill :progress="99">
+              Bootstrap
+            </skill>
+            <skill :progress="50">
+              React
+            </skill>
           </ul>
-          <h4 class="font-sans">Programmatic Languages</h4>
+          <h4 class="font-sans">
+            Programmatic Languages
+          </h4>
           <ul class="list-reset mb-10">
-            <skill :progress="99">PHP</skill>
-            <skill :progress="95">SQL</skill>
-            <skill :progress="95">JS</skill>
-            <skill :progress="20">Ruby</skill>
-            <skill :progress="20">Java</skill>
-            <skill :progress="20">.NET</skill>
+            <skill :progress="99">
+              PHP
+            </skill>
+            <skill :progress="95">
+              SQL
+            </skill>
+            <skill :progress="95">
+              JS
+            </skill>
+            <skill :progress="20">
+              Ruby
+            </skill>
+            <skill :progress="20">
+              Java
+            </skill>
+            <skill :progress="20">
+              .NET
+            </skill>
           </ul>
 
-          <h4 class="font-sans">Techs & Metodologies</h4>
+          <h4 class="font-sans">
+            Techs & Metodologies
+          </h4>
           <ul class="list-reset mb-10">
-            <skill :progress="99">MySQL/MariaDB</skill>
-            <skill :progress="99">PostgreSQL</skill>
-            <skill :progress="70">Redis</skill>
-            <skill :progress="60">Elastic Search</skill>
-            <skill :progress="90">TDD</skill>
-            <skill :progress="90">Restful APIs</skill>
-            <skill :progress="70">Scrum</skill>
-            <skill :progress="70">CI</skill>
-            <skill :progress="90">Sass/Less/Stylus</skill>
-            <skill :progress="90">Webpack</skill>
-            <skill :progress="70">AWS</skill>
-            <skill :progress="80">Linux Servers</skill>
-            <skill :progress="30">Apache Cordova</skill>
+            <skill :progress="99">
+              MySQL/MariaDB
+            </skill>
+            <skill :progress="99">
+              PostgreSQL
+            </skill>
+            <skill :progress="70">
+              Redis
+            </skill>
+            <skill :progress="60">
+              Elastic Search
+            </skill>
+            <skill :progress="90">
+              TDD
+            </skill>
+            <skill :progress="90">
+              Restful APIs
+            </skill>
+            <skill :progress="90">
+              Mocha & Test
+            </skill>
+            <skill :progress="70">
+              Scrum
+            </skill>
+            <skill :progress="70">
+              CI
+            </skill>
+            <skill :progress="90">
+              Sass/Less/Stylus
+            </skill>
+            <skill :progress="90">
+              Webpack
+            </skill>
+            <skill :progress="70">
+              AWS
+            </skill>
+            <skill :progress="80">
+              Linux Servers
+            </skill>
+            <skill :progress="30">
+              Apache Cordova
+            </skill>
           </ul>
 
-          <h4 class="font-sans mb-4">Personal</h4>
+          <h4 class="font-sans mb-4">
+            Personal
+          </h4>
           <ul class="list-reset mb-10">
             <li class="mt-2">
               <i class="icon-checkmark mr-1" />
@@ -191,7 +269,9 @@
             </li>
           </ul>
 
-          <h4 class="font-sans">Latest Github Activity</h4>
+          <h4 class="font-sans">
+            Latest Github Activity
+          </h4>
           <github-heatmap><span class="py-4 block">Loading...</span></github-heatmap>
         </div>
 
@@ -199,10 +279,18 @@
           Hobbies
         </block-header>
         <ul class="list-reset pl-10">
-          <li class="mt-2">Runner</li>
-          <li class="mt-2">Triathlon Amateur</li>
-          <li class="mt-2">Bookworm</li>
-          <li class="mt-2">Entrepreneurship</li>
+          <li class="mt-2">
+            Runner
+          </li>
+          <li class="mt-2">
+            Triathlon Amateur
+          </li>
+          <li class="mt-2">
+            Bookworm
+          </li>
+          <li class="mt-2">
+            Entrepreneurship
+          </li>
         </ul>
 
         <block-header class="mt-10" icon="network">
