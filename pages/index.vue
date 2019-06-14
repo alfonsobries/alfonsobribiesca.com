@@ -92,6 +92,15 @@
           </p>
         </experience>
 
+        <experience
+          title="Laravel-Nuxt-Tailwind"
+          website="https://github.com/alfonsobries/laravel-nuxt-tailwind"
+        >
+          <p class="mb-2">
+            Laravel with nuxtJs styled with Tailwind Boilerplate
+          </p>
+        </experience>
+
         <block-header class="mt-10" icon="graduation-hat">
           Education
         </block-header>
