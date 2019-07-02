@@ -93,6 +93,15 @@
         </experience>
 
         <experience
+          title="Laravel/Node Spreadsheet importer"
+          website="https://github.com/alfonsobries/laravel-spreadsheet-importer"
+        >
+          <p class="mb-2">
+            Laravel Package & npm cli tool that works together to read in seconds big spreadsheet files that are impossible to process into a typical PHP app (or consumes a lot of memory & time).
+          </p>
+        </experience>
+
+        <experience
           title="Laravel-Nuxt-Tailwind"
           website="https://github.com/alfonsobries/laravel-nuxt-tailwind"
         >
