@@ -66,7 +66,7 @@
           when="May 2018 - Present day (2 years) | Remote"
           company="Surgio"
         >
-          <p>I work remotely as a Full Stack Software Developer for <a href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backed and work with the team to standardize the full application codebase.</p>
+          <p>I work remotely as a Full Stack Software Developer for <a href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backend and work with the team to standardize the full application codebase.</p>
         </experience>
 
         <experience
@@ -125,7 +125,7 @@
           when="Continual"
         >
           <p class="mb-2">
-            I'm used to taking all kind of online courses as my main source of new knowledge. Some of my favourites include:
+            I'm used to take all kind of online courses as my main source of new knowledge. Some of my favourites include:
           </p>
           <ul class="list-reset">
             <li class="mb-1 flex">
@@ -178,7 +178,7 @@
             <span class="pl-8">Im an expert in:</span>
           </h4>
           <p class="pl-8 text-sm text-grey-dark mb-3">
-            I have extensive knowledge of technology, a portfolio and experienced enough to consider myself an expert.
+            I have extensive knowledge of the technology, a portfolio and enough experience to consider myself an expert and even teach others.
           </p>
 
           <div class="pl-8">
