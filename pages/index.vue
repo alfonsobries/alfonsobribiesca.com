@@ -44,6 +44,12 @@
                 @alfonsobries
               </a>
             </li>
+            <li class="pt-1 whitespace-no-wrap">
+              <i class="icon-github mr-1" />
+              <a class="text-grey-darkest no-underline hover:underline" rel="noopener" target="_blank" href="https://github.com/alfonsobries">
+                /alfonsobries
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -57,18 +63,18 @@
 
         <experience
           title="Software Developer"
-          when="May 2018 - Present day (1 year) | Remote"
+          when="May 2018 - Present day (2 years) | Remote"
           company="Surgio"
         >
-          <p>I work as a Software Developer for <a target="_blank" rel="noopener" class="text-grey-darkest" href="https://surg.io/">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by implementing technologies like Vue for the frontend and work with the team to add even more features and standardize the full application code base.</p>
+          <p>I work remotely as a Full Stack Software Developer for <a href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backed and work with the team to standardize the full application codebase.</p>
         </experience>
 
         <experience
           title="Founder & Developer"
-          when="Feb 2009 - Present day (9 years) | Mexico City"
+          when="Feb 2009 - Present day (10 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I founded <a target="_blank" class="text-grey-darkest" rel="noopener" href="https://www.vexilo.com/">Vexilo</a> a software development company where I personally developed more than 50 succesfully websites and web application for all kind of companies of all sizes in Mexico.</p>
+          <p>I created the brand <a href="https://www.vexilo.com/en" target="_blank">Vexilo</a> in which name I developed more than 50 successfully websites and web applications for all kinds of companies of all sizes in Mexico.</p>
         </experience>
 
         <experience
@@ -76,7 +82,7 @@
           when="Aug 2007 - Jan 2009 (2 years) | Mexico City"
           company="Ingenia Agency"
         >
-          <p>Worked for Ingenia Agency one of the biggest digital agencies in Mexico City where I developed a lot of successful websites, e-commerce and web applications for some of the important companies in Mexico City, like Brother Mexico, Coca-Cola, Megacable, etc.</p>
+          <p>Worked for Ingenia Agency one of the top digital agencies in Mexico City where I developed a lot of successful websites, e-commerce and web applications for some of the important companies in Mexico City, like Brother Mexico, Coca-Cola, Megacable, etc.</p>
         </experience>
 
         <block-header class="mt-10" icon="code">
@@ -88,7 +94,7 @@
           website="https://vue-tailwind.com/"
         >
           <p class="mb-2">
-            VueTailwind is a library of Vue components with a fully configurable theme classes that don't depend on any CSS frameworks but are by default styled with TailwindCSS.
+            VueTailwind is a library of Vue components with fully configurable theme classes that don't depend on any CSS frameworks but are by default styled with TailwindCSS.
           </p>
         </experience>
 
@@ -140,11 +146,15 @@
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
-              <span>Complete Guide to Elasticsearch by Bo Andersen (In progress)</span>
+              <span>Complete Guide to Elasticsearch by Bo Andersen (Udemy)</span>
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
-              <span>Advanced React & GraphQL by Wesbos (In progress)</span>
+              <span>Docker and Kubernetes: The Complete Guide by Stephen Grider (Udemy)</span>
+            </li>
+            <li class="mb-1 flex">
+              <i class="icon-checkmark mr-2" />
+              <span>Advanced React & GraphQL by Wesbos</span>
             </li>
           </ul>
         </experience>
@@ -162,109 +172,157 @@
           Skills & Knowledge
         </block-header>
 
-        <div class="pl-10">
-          <h4 class="font-sans">
-            Frameworks & Tools
+        <div>
+          <h4 class="font-sans mt-1 uppercase text-gray-dark">
+            <span class="icon-medal-first text-3xl text-grey-dark absolute" />
+            <span class="pl-8">Im an expert in:</span>
           </h4>
-          <ul class="list-reset mb-10">
-            <skill :progress="99">
-              Laravel
-            </skill>
-            <skill :progress="99">
-              VueJs
-            </skill>
-            <skill :progress="99">
-              NuxtJS
-            </skill>
-            <skill :progress="99">
-              Vuex
-            </skill>
-            <skill :progress="99">
-              Tailwind
-            </skill>
-            <skill :progress="99">
-              Bootstrap
-            </skill>
-            <skill :progress="50">
-              React
-            </skill>
-          </ul>
-          <h4 class="font-sans">
-            Programmatic Languages
-          </h4>
-          <ul class="list-reset mb-10">
-            <skill :progress="99">
-              PHP
-            </skill>
-            <skill :progress="95">
-              SQL
-            </skill>
-            <skill :progress="95">
-              JS
-            </skill>
-            <skill :progress="20">
-              Ruby
-            </skill>
-            <skill :progress="20">
-              Java
-            </skill>
-            <skill :progress="20">
-              .NET
-            </skill>
-          </ul>
+          <p class="pl-8 text-sm text-grey-dark mb-3">
+            I have extensive knowledge of technology, a portfolio and experienced enough to consider myself an expert.
+          </p>
 
-          <h4 class="font-sans">
-            Techs & Metodologies
-          </h4>
-          <ul class="list-reset mb-10">
-            <skill :progress="99">
-              MySQL/MariaDB
-            </skill>
-            <skill :progress="99">
-              PostgreSQL
-            </skill>
-            <skill :progress="70">
-              Redis
-            </skill>
-            <skill :progress="60">
-              Elastic Search
-            </skill>
-            <skill :progress="90">
-              TDD
-            </skill>
-            <skill :progress="90">
-              Restful APIs
-            </skill>
-            <skill :progress="90">
-              Mocha & Test
-            </skill>
-            <skill :progress="70">
-              Scrum
-            </skill>
-            <skill :progress="70">
-              CI
-            </skill>
-            <skill :progress="90">
-              Sass/Less/Stylus
-            </skill>
-            <skill :progress="90">
-              Webpack
-            </skill>
-            <skill :progress="70">
-              AWS
-            </skill>
-            <skill :progress="80">
-              Linux Servers
-            </skill>
-            <skill :progress="30">
-              Apache Cordova
-            </skill>
-          </ul>
+          <div class="pl-8">
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Frameworks & Tools
+            </h4>
 
+            <ul class="list-reset mb-5">
+              <skill :progress="99">
+                Laravel
+              </skill>
+              <skill :progress="99">
+                VueJs
+              </skill>
+              <skill :progress="99">
+                NuxtJS
+              </skill>
+              <skill :progress="99">
+                Vuex
+              </skill>
+              <skill :progress="99">
+                Tailwind
+              </skill>
+              <skill :progress="99">
+                Bootstrap
+              </skill>
+            </ul>
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Programmatic Languages
+            </h4>
+            <ul class="list-reset mb-5">
+              <skill :progress="99">
+                PHP
+              </skill>
+              <skill :progress="95">
+                SQL
+              </skill>
+              <skill :progress="95">
+                JS
+              </skill>
+            </ul>
+
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Other Techs & Metodologies
+            </h4>
+            <ul class="list-reset mb-5">
+              <skill :progress="99">
+                MySQL/PostgreSQL
+              </skill>
+              <skill :progress="99">
+                Redis
+              </skill>
+              <skill :progress="99">
+                TDD
+              </skill>
+              <skill :progress="99">
+                Restful APIs
+              </skill>
+              <skill :progress="99">
+                Mocha & Test
+              </skill>
+              <skill :progress="99">
+                Scrum
+              </skill>
+              <skill :progress="99">
+                CI
+              </skill>
+              <skill :progress="99">
+                Sass/Less/Stylus
+              </skill>
+              <skill :progress="99">
+                Webpack
+              </skill>
+              <skill :progress="99">
+                Linux Servers
+              </skill>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-sans mt-1 uppercase text-gray-dark">
+            <span class="icon-medal-second text-3xl text-grey-dark absolute" />
+            <span class="pl-8">I have strong knowledge:</span>
+          </h4>
+          <p class="pl-8 text-sm text-grey-dark mb-3">
+            Most of my portfolio are personal projects or experiments, however I feel prepared to take any type of project with this technology.
+          </p>
+          <div class="ml-8">
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Frameworks & Tools
+            </h4>
+
+            <ul class="list-reset mb-5">
+              <skill :progress="50">
+                React
+              </skill>
+              <skill :progress="50">
+                Redux
+              </skill>
+              <skill :progress="50">
+                Gridsome
+              </skill>
+            </ul>
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Programmatic Languages
+            </h4>
+            <ul class="list-reset mb-5">
+              <skill :progress="40">
+                Ruby
+              </skill>
+              <skill :progress="40">
+                Java
+              </skill>
+            </ul>
+
+            <h4 class="font-sans text-grey-dark uppercase text-sm">
+              Techs & Metodologies
+            </h4>
+            <ul class="list-reset mb-5">
+              <skill :progress="60">
+                GraphQL
+              </skill>
+              <skill :progress="60">
+                Docker
+              </skill>
+              <skill :progress="60">
+                Elastic Search
+              </skill>
+              <skill :progress="60">
+                AWS
+              </skill>
+              <skill :progress="30">
+                Apache Cordova
+              </skill>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pl-8">
           <h4 class="font-sans mb-4">
             Personal
           </h4>
-          <ul class="list-reset mb-10">
+          <ul class="list-reset mb-5">
             <li class="mt-2">
               <i class="icon-checkmark mr-1" />
               Autodidact
@@ -286,8 +344,7 @@
               Passionate
             </li>
           </ul>
-
-          <h4 class="font-sans">
+          <h4 class="font-sans text-grey-dark uppercase text-sm">
             Latest Github Activity
           </h4>
           <github-heatmap><span class="py-4 block">Loading...</span></github-heatmap>

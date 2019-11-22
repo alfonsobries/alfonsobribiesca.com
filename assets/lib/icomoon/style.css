@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?emkkej');
-  src:  url('fonts/icomoon.eot?emkkej#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.woff2?emkkej') format('woff2'),
-    url('fonts/icomoon.ttf?emkkej') format('truetype'),
-    url('fonts/icomoon.woff?emkkej') format('woff'),
-    url('fonts/icomoon.svg?emkkej#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?wnlqub');
+  src:  url('fonts/icomoon.eot?wnlqub#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?wnlqub') format('woff2'),
+    url('fonts/icomoon.ttf?wnlqub') format('truetype'),
+    url('fonts/icomoon.woff?wnlqub') format('woff'),
+    url('fonts/icomoon.svg?wnlqub#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -99,6 +100,15 @@
 }
 .icon-medal-empty:before {
   content: "\e6dd";
+}
+.icon-medal-first:before {
+  content: "\e6de";
+}
+.icon-medal-second:before {
+  content: "\e6df";
+}
+.icon-medal-third:before {
+  content: "\e6e0";
 }
 .icon-group-work:before {
   content: "\e726";
