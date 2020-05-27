@@ -76,6 +76,9 @@ export default {
 text {
   display: none;
 }
+.js-calendar-graph-svg g {
+  outline: 2px solid #FFF;
+}
 .github-graph-none {
   fill: #f1f5f8;
 }
