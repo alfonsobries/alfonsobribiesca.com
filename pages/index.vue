@@ -16,7 +16,7 @@
             Alfonso Bribiesca
           </h1>
           <p class="font-serif text-2xl italic">
-            Full Stack Software Developer & Entrepeneur
+            Full Stack Software Developer
           </p>
         </div>
 
@@ -66,15 +66,15 @@
           when="May 2018 - Present day (2 years) | Remote"
           company="Surgio"
         >
-          <p>I work remotely as a Full Stack Software Developer for <a href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backend and work with the team to standardize the full application codebase.</p>
+          <p>I work remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backend and work with the team to standardize the full application codebase.</p>
         </experience>
 
         <experience
           title="Founder & Developer"
-          when="Feb 2009 - Present day (10 years) | Mexico City"
+          when="Feb 2009 - Present day (11 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I created the brand <a href="https://www.vexilo.com/en" target="_blank">Vexilo</a> in which name I developed more than 50 successfully websites and web applications for all kinds of companies of all sizes in Mexico.</p>
+          <p>I created the brand <a href="https://www.vexilo.com/en" class="text-grey-darkest" target="_blank">Vexilo</a> in which name I developed more than 50 successfully websites and web applications for all kinds of companies of all sizes in Mexico.</p>
         </experience>
 
         <experience
@@ -116,6 +116,15 @@
           </p>
         </experience>
 
+        <experience
+          title="Dona.me"
+          website="https://www.dona.me/"
+        >
+          <p class="mb-2">
+            Dona.me is a crowfunding sites where ONG can receive and manage monthly donations for his labour
+          </p>
+        </experience>
+
         <block-header class="mt-10" icon="graduation-hat">
           Education
         </block-header>
@@ -154,7 +163,7 @@
             </li>
             <li class="mb-1 flex">
               <i class="icon-checkmark mr-2" />
-              <span>Advanced React & GraphQL by Wesbos</span>
+              <span>React - The Complete Guide & Understanding TypeScript - 2020 from Maximilian Schwarzmüller</span>
             </li>
           </ul>
         </experience>
@@ -198,6 +207,9 @@
               </skill>
               <skill :progress="99">
                 Vuex
+              </skill>
+              <skill :progress="99">
+                TypeScript
               </skill>
               <skill :progress="99">
                 Tailwind
@@ -273,25 +285,14 @@
             </h4>
 
             <ul class="list-reset mb-5">
-              <skill :progress="50">
+              <skill :progress="80">
                 React
               </skill>
-              <skill :progress="50">
+              <skill :progress="80">
                 Redux
               </skill>
-              <skill :progress="50">
+              <skill :progress="80">
                 Gridsome
-              </skill>
-            </ul>
-            <h4 class="font-sans text-grey-dark uppercase text-sm">
-              Programmatic Languages
-            </h4>
-            <ul class="list-reset mb-5">
-              <skill :progress="40">
-                Ruby
-              </skill>
-              <skill :progress="40">
-                Java
               </skill>
             </ul>
 
