@@ -121,7 +121,7 @@
           website="https://www.dona.me/"
         >
           <p class="mb-2">
-            Dona.me is a crowfunding sites where ONG can receive and manage monthly donations for his labour
+            Dona.me is a tool that allows nonprofit organizations to create a website to share their work, receive monthly financial contributions, and keep in touch with people who support them.
           </p>
         </experience>
 
@@ -196,25 +196,22 @@
             </h4>
 
             <ul class="list-reset mb-5">
-              <skill :progress="99">
+              <skill>
                 Laravel
               </skill>
-              <skill :progress="99">
+              <skill>
                 VueJs
               </skill>
-              <skill :progress="99">
+              <skill>
                 NuxtJS
               </skill>
-              <skill :progress="99">
+              <skill>
                 Vuex
               </skill>
-              <skill :progress="99">
-                TypeScript
-              </skill>
-              <skill :progress="99">
+              <skill>
                 Tailwind
               </skill>
-              <skill :progress="99">
+              <skill>
                 Bootstrap
               </skill>
             </ul>
@@ -222,14 +219,17 @@
               Programmatic Languages
             </h4>
             <ul class="list-reset mb-5">
-              <skill :progress="99">
+              <skill>
                 PHP
               </skill>
-              <skill :progress="95">
+              <skill>
                 SQL
               </skill>
-              <skill :progress="95">
+              <skill>
                 JS
+              </skill>
+              <skill>
+                TypeScript
               </skill>
             </ul>
 
@@ -237,34 +237,34 @@
               Other Techs & Metodologies
             </h4>
             <ul class="list-reset mb-5">
-              <skill :progress="99">
+              <skill>
                 MySQL/PostgreSQL
               </skill>
-              <skill :progress="99">
+              <skill>
                 Redis
               </skill>
-              <skill :progress="99">
+              <skill>
                 TDD
               </skill>
-              <skill :progress="99">
+              <skill>
                 Restful APIs
               </skill>
-              <skill :progress="99">
+              <skill>
                 Mocha & Test
               </skill>
-              <skill :progress="99">
+              <skill>
                 Scrum
               </skill>
-              <skill :progress="99">
+              <skill>
                 CI
               </skill>
-              <skill :progress="99">
+              <skill>
                 Sass/Less/Stylus
               </skill>
-              <skill :progress="99">
+              <skill>
                 Webpack
               </skill>
-              <skill :progress="99">
+              <skill>
                 Linux Servers
               </skill>
             </ul>
@@ -285,13 +285,16 @@
             </h4>
 
             <ul class="list-reset mb-5">
-              <skill :progress="80">
+              <skill>
                 React
               </skill>
-              <skill :progress="80">
+              <skill>
                 Redux
               </skill>
-              <skill :progress="80">
+              <skill>
+                Next.js
+              </skill>
+              <skill>
                 Gridsome
               </skill>
             </ul>
@@ -300,19 +303,19 @@
               Techs & Metodologies
             </h4>
             <ul class="list-reset mb-5">
-              <skill :progress="60">
+              <skill>
                 GraphQL
               </skill>
-              <skill :progress="60">
+              <skill>
                 Docker
               </skill>
-              <skill :progress="60">
+              <skill>
                 Elastic Search
               </skill>
-              <skill :progress="60">
+              <skill>
                 AWS
               </skill>
-              <skill :progress="30">
+              <skill>
                 Apache Cordova
               </skill>
             </ul>
