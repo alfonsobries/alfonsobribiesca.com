@@ -2,22 +2,24 @@
   <div class="container mx-auto py-10 font-serif">
     <div>
       <div class="md:flex md:-mx-4 items-center">
-        <div class="px-4 flex-no-shrink text-center">
-          <span class="rounded-full overflow-hidden">
-            <img
-              class="rounded-full overflow-hidden"
-              src="photo.png"
-              alt="Alfonso Bribiesca Espinosa"
-            >
-          </span>
-        </div>
-        <div class="px-4">
-          <h1 class="uppercase font-sans text-5xl text-center py-5 md:py-0 md:text-left">
-            Alfonso Bribiesca
-          </h1>
-          <p class="font-serif text-2xl italic">
-            Full Stack Software Developer
-          </p>
+        <div class="md:flex md:w-3/5">
+          <div class="px-4 flex-no-shrink text-center">
+            <span class="rounded-full overflow-hidden">
+              <img
+                class="rounded-full overflow-hidden"
+                src="photo.png"
+                alt="Alfonso Bribiesca Espinosa"
+              >
+            </span>
+          </div>
+          <div class="px-4">
+            <h1 class="uppercase font-sans text-5xl text-center py-5 md:py-0 md:text-left">
+              Alfonso Bribiesca
+            </h1>
+            <p class="font-serif text-2xl italic">
+              Full Stack Software Developer
+            </p>
+          </div>
         </div>
 
         <div class="px-4 mt-8 md:mt-0">
