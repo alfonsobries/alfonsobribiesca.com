@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h3 class="font-sans uppercase flex items-center">
+    <h3 class="flex items-center font-sans uppercase">
       <span :class="[`icon-${icon}`, 'text-2xl', 'w-10', 'text-grey-dark']" />
       <span><slot /></span>
     </h3>
-    <hr class="ml-10 border-b border-grey-dark mb-4">
+    <hr class="mb-4 ml-10 border-b border-grey-lighter">
   </div>
 </template>
 
