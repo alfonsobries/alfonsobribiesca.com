@@ -21,7 +21,7 @@
     "@nuxtjs/google-analytics": "^2.2.3",
     "@vue/eslint-config-standard": "^5.1.2",
     "autoprefixer": "^9.7.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "cssnano": "^4.1.10",
     "eslint": "^7.0.0",
