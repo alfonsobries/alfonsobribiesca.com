@@ -65,10 +65,10 @@
 
         <experience
           title="Software Developer"
-          when="Oct 2021 - Present day (~1 year) | Remote"
+          when="Oct 2021 - Present day (~2 year) | Remote"
           company="Ark"
         >
-          <p>I work remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://ark.io/" target="_blank">Ark</a> a blockchain solutions company working on his different open source and propetary software products with technologies like Laravel, Alpine.js and React.</p>
+          <p>I work remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://ark.io/" target="_blank">Ark</a> a blockchain solutions company working on his different open source and proprietary software products with technologies like Laravel, Alpine.js, and React.</p>
         </experience>
 
         <experience
@@ -76,15 +76,15 @@
           when="May 2018 - Oct 2021 (~2 years) | Remote"
           company="Surgio"
         >
-          <p>I worked remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovate the frontend with all kind of custom Vue components, improve the overall frontend workflow, implement even more features in the backend and work with the team to standardize the full application codebase.</p>
+          <p>I worked remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovating the frontend with all kinds of custom Vue components, improving the overall frontend workflow, implementing, even more, features in the backend and work with the team to standardize and improve the full application codebase.</p>
         </experience>
 
         <experience
           title="Founder & Developer"
-          when="Feb 2009 - Present day (11 years) | Mexico City"
+          when="Feb 2009 - Dic 2019 (10 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I created the brand <a href="https://www.vexilo.com/en" class="text-grey-darkest" target="_blank">Vexilo</a> in which name I developed more than 50 successful websites and web applications for all kinds of companies of all sizes in Mexico.</p>
+          <p>I created the brand <a href="https://www.vexilo.com/en" class="text-grey-darkest" target="_blank">Vexilo</a> in which I developed more than 50 successful websites and web applications for all kinds of companies of all sizes in Mexico</p>
         </experience>
 
         <experience
@@ -104,7 +104,16 @@
           website="https://vue-tailwind.com/"
         >
           <p class="mb-2">
-            VueTailwind is a library of Vue components with fully configurable theme classes that don't depend on any CSS frameworks but are by default styled with TailwindCSS.
+            Created VueTailwind: a popular library of Vue components (+10k visits per month and about 2k stats in Github) with fully configurable theme classes that don't depend on any CSS frameworks but are by default styled with TailwindCSS.
+          </p>
+        </experience>
+
+        <experience
+          title="VariantJS"
+          website="https://github.com/variantjs"
+        >
+          <p class="mb-2">
+            VariantJS is the next version of the VueTailwind package built from scratch for Vue 3 and React.
           </p>
         </experience>
 
@@ -144,7 +153,7 @@
           when="Continual"
         >
           <p class="mb-2">
-            I'm used to taking all kinds of online courses as my primary source of new knowledge. Some of my favorites include:
+            I'm used to learning through all kinds of online courses as my primary source of new knowledge. Some of the recent ones or favorites are:
           </p>
           <ul class="list-reset">
             <li class="flex mb-1">
@@ -173,7 +182,19 @@
             </li>
             <li class="flex mb-1">
               <i class="mr-2 icon-checkmark" />
-              <span>React - The Complete Guide & Understanding TypeScript - 2020 from Maximilian Schwarzmüller</span>
+              <span>React - The Complete Guide & Understanding TypeScript by Maximilian Schwarzmüller (Udemy)</span>
+            </li>
+            <li class="flex mb-1">
+              <i class="mr-2 icon-checkmark" />
+              <span>Modern React with Redux by Stephen Grider (Udemy)</span>
+            </li>
+            <li class="flex mb-1">
+              <i class="mr-2 icon-checkmark" />
+              <span>Typescript: The Complete Developer's Guide by Stephen Grider (Udemy)</span>
+            </li>
+            <li class="flex mb-1">
+              <i class="mr-2 icon-checkmark" />
+              <span>Ethereum and Solidity: The Complete Developer's Guide by Stephen Grider (Udemy)</span>
             </li>
           </ul>
         </experience>
@@ -183,7 +204,7 @@
           when="Feb 2014 - Ene 2018 (2 years) | Mexico City"
           company="La Salle University"
         >
-          <p>I studied Systems Engineering at La Salle University, one of the most recognized private universities in Mexico, where I got my degree by a meritorious average and achieved one of the highest grades of my generation.</p>
+          <p>I have a software engineering degree from La Salle University, one of the most recognized private universities in Mexico, where I obtained one of the highest grades of my generation.</p>
         </experience>
       </div>
       <div class="px-4 md:w-2/5">
@@ -211,6 +232,15 @@
               </skill>
               <skill>
                 VueJs
+              </skill>
+              <skill>
+                React
+              </skill>
+              <skill>
+                Redux
+              </skill>
+              <skill>
+                Next.js
               </skill>
               <skill>
                 Alpine.js
@@ -299,13 +329,10 @@
 
             <ul class="mb-5 list-reset">
               <skill>
-                React
+                Web3
               </skill>
               <skill>
-                Redux
-              </skill>
-              <skill>
-                Next.js
+                Solidity
               </skill>
               <skill>
                 Gridsome
@@ -316,6 +343,9 @@
               Techs & Metodologies
             </h4>
             <ul class="mb-5 list-reset">
+              <skill>
+                Blockchain
+              </skill>
               <skill>
                 GraphQL
               </skill>
@@ -361,10 +391,10 @@
               Passionate
             </li>
           </ul>
-          <h4 class="font-sans text-sm uppercase text-grey-dark">
+          <!-- <h4 class="font-sans text-sm uppercase text-grey-dark">
             Latest Github Activity
           </h4>
-          <github-heatmap><span class="block py-4">Loading...</span></github-heatmap>
+          <github-heatmap><span class="block py-4">Loading...</span></github-heatmap> -->
         </div>
 
         <block-header class="" icon="bicycle2">
