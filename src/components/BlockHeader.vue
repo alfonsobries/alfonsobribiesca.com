@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="flex items-center font-sans uppercase">
-      <span class="text-gray-400 mr-4">
+      <span class="text-gray-400 mr-4 dark:text-gray-600">
         <slot name="icon" />
       </span>    
       

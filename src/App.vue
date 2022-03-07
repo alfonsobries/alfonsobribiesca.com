@@ -28,17 +28,17 @@ const printResume = () => {
             </span>
           </div>
           <div class="px-4">
-            <h1 class="py-5 font-sans print:text-3xl md:text-5xl leading-none md:leading-tight text-4xl text-center uppercase md:py-0 md:text-left print:py-0 print:text-left">
+            <h1 class="py-5 font-sans print:text-3xl md:text-5xl leading-none md:leading-tight text-4xl text-center uppercase md:py-0 md:text-left print:py-0 print:text-left dark:text-gray-200">
               Alfonso Bribiesca
             </h1>
-            <p class="font-serif text-2xl italic print:text-xl text-center md:text-left text-gray-500 leading-none">
+            <p class="font-serif text-2xl italic print:text-xl text-center md:text-left text-gray-500 leading-none dark:text-gray-400">
               Full Stack Software Developer
             </p>
           </div>
         </div>
 
         <div class="px-4 mt-8 flex-grow md:mt-0 print:mt-0">
-          <h2 class="font-sans text-sm uppercase">
+          <h2 class="font-sans text-sm uppercase ">
             Contact me
           </h2>
           
@@ -296,10 +296,10 @@ const printResume = () => {
         </block-header>
 
         <div>
-          <h4 class="mt-1 font-sans uppercase text-gray-dark mb-1 pl-2 flex">
+          <h4 class="mt-1 font-sans uppercase text-gray-600 dark:text-gray-400 mb-1 pl-2 flex">
             <span>I am an expert in:</span>
           </h4>
-          <p class="pl-2 mb-3 text-sm text-gray-400">
+          <p class="pl-2 mb-3 text-sm text-gray-400 dark:text-gray-500">
             I have extensive knowledge of the technology, a portfolio, and enough experience to consider myself an expert and even teach others.
           </p>
 
@@ -402,10 +402,10 @@ const printResume = () => {
         </div>
 
         <div>
-          <h4 class="mt-1 mb-3 font-sans uppercase text-gray-dark flex pl-2">
+          <h4 class="mt-1 mb-3 font-sans uppercase text-gray-600 dark:text-gray-400 flex pl-2">
             <span>I have strong knowledge:</span>
           </h4>
-          <p class="pl-2 mb-3 text-sm text-gray-400 ">
+          <p class="pl-2 mb-3 text-sm text-gray-400 dark:text-gray-500 ">
             Most of my portfolio are personal projects or experiments, however I feel prepared to take any type of project with this technology.
           </p>
 
