@@ -46,10 +46,6 @@
               <anchor href="mailto:alfonso@vexilo.com">alfonso@vexilo.com</anchor>
             </li>
             <li class="pt-1 whitespace-nowrap flex items-center">
-              <i class="mr-1 icon-skype" />
-              <anchor href="skype:alfonso.bribiesca">alfonso.bribiesca</anchor>
-            </li>
-            <li class="pt-1 whitespace-nowrap flex items-center">
               <i class="mr-1 icon-twitter" />
               <anchor rel="noopener" target="_blank" href="https://twitter.com/alfonsobries">@alfonsobries</anchor>
             </li>
