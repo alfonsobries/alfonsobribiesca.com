@@ -1,15 +1,16 @@
 <script setup lang="ts">
-  import Experience from './components/Experience.vue'
-  import BlockHeader from './components/BlockHeader.vue'
-  import Skill from './components/Skill.vue'
-  import Anchor from './components/Anchor.vue'
-  import Separator from './components/Separator.vue'
+import Experience from './components/Experience.vue'
+import BlockHeader from './components/BlockHeader.vue'
+import Skill from './components/Skill.vue'
+import Anchor from './components/Anchor.vue'
+import Separator from './components/Separator.vue'
 
-  import Photo from './assets/img/photo.png'
+import Photo from './assets/img/photo.png'
+import Checkmark from './components/icons/Checkmark.vue'
 
-  const printResume = () => {
-    window.print() 
-  }
+const printResume = () => {
+  window.print() 
+}
 </script>
 
 <template>
@@ -76,7 +77,7 @@
             </li>
 
 
-            <li class="pt-1 whitespace-nowrap flex items-center print:hidden mt-2">
+            <li class="pt-1 whitespace-nowrap flex items-center print:hidden mt-2 md:block hidden">
               <anchor button class="flex items-center text-sm" @click="printResume">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z" clip-rule="evenodd" />
@@ -89,9 +90,14 @@
       </div>
     </div>
 
-    <div class="mt-8 md:flex md:mt-10 print:flex print:mt-4">
+    <div class="mt-8 md:flex md:mt-10 print:flex">
       <div class="px-4 pb-8 md:w-3/5 print:w-1/2">
         <block-header>
+          <template v-slot:icon>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </template>
           <span class="hidden print:inline">Recent</span> Experience
         </block-header>
 
@@ -130,7 +136,13 @@
 
         <div class="break-after-page" />
 
-        <block-header class="mt-10 print:mt-4" icon="code">
+        <block-header class="mt-10 print:mt-4">
+          <template v-slot:icon>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>  
+          </template>
+
           Open Source & Personal Projects
         </block-header>
 
@@ -193,6 +205,13 @@
         </experience>
 
         <block-header class="mt-10 print:mt-4" icon="graduation-hat">
+          <template v-slot:icon>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </template>
           Education
         </block-header>
 
@@ -205,43 +224,53 @@
           </p>
           <ul class="list-reset print:hidden">
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>PHP, Vue, Laravel, & TDD Courses at <anchor rel="noopener" href="https://laracasts.com/" target="_blank">Laracasts</anchor></span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Refactoring UI by Adam Wathan & Steve Schoger</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Test-Driven Laravel & Refactoring to Collections by Adam Wathan</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>ES6 for Everyone & React for beginners by Wesbos</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Complete Guide to Elasticsearch by Bo Andersen (Udemy)</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Docker and Kubernetes: The Complete Guide by Stephen Grider (Udemy)</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>React - The Complete Guide & Understanding TypeScript by Maximilian Schwarzmüller (Udemy)</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Modern React with Redux by Stephen Grider (Udemy)</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Typescript: The Complete Developer's Guide by Stephen Grider (Udemy)</span>
             </li>
             <li class="flex mb-1">
-              <i class="mr-2 icon-checkmark" />
+              <Checkmark class="mr-2 w-5 h-5 text-gray-400 mt-1" />
+
               <span>Ethereum and Solidity: The Complete Developer's Guide by Stephen Grider (Udemy)</span>
             </li>
           </ul>
@@ -257,20 +286,24 @@
 
       </div>
       <div class="px-4 md:w-2/5 print:w-1/2">
-        <block-header icon="hammer-wrench">
+        <block-header>
+          <template v-slot:icon>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+          </template>
           Skills & Knowledge
         </block-header>
 
         <div>
-          <h4 class="mt-1 font-sans uppercase text-gray-dark mb-1">
-            <span class="absolute text-3xl icon-medal-first text-gray-500" />
-            <span class="pl-8">Im an expert in:</span>
+          <h4 class="mt-1 font-sans uppercase text-gray-dark mb-1 pl-2 flex">
+            <span>I am an expert in:</span>
           </h4>
-          <p class="pl-8 mb-3 text-sm text-gray-400">
+          <p class="pl-2 mb-3 text-sm text-gray-400">
             I have extensive knowledge of the technology, a portfolio, and enough experience to consider myself an expert and even teach others.
           </p>
 
-          <div class="pl-8 flex flex-col print:flex-row print:space-x-4">
+          <div class="pl-2 flex flex-col print:flex-row print:space-x-4">
             <div>
               <h4 class="font-sans text-sm uppercase text-gray-500">
                 Frameworks & Tools
@@ -369,15 +402,14 @@
         </div>
 
         <div>
-          <h4 class="mt-1 mb-3 font-sans uppercase text-gray-dark">
-            <span class="absolute text-3xl icon-medal-second text-gray-500" />
-            <span class="pl-8">I have strong knowledge:</span>
+          <h4 class="mt-1 mb-3 font-sans uppercase text-gray-dark flex pl-2">
+            <span>I have strong knowledge:</span>
           </h4>
-          <p class="pl-8 mb-3 text-sm text-gray-400 ">
+          <p class="pl-2 mb-3 text-sm text-gray-400 ">
             Most of my portfolio are personal projects or experiments, however I feel prepared to take any type of project with this technology.
           </p>
 
-          <div class="ml-8 flex flex-col print:flex-row print:space-x-4">
+          <div class="pl-2 flex flex-col print:flex-row print:space-x-4">
             <div>
               <h4 class="font-sans text-sm uppercase text-gray-500">
                 Frameworks & Tools
@@ -425,29 +457,34 @@
           </div>
         </div>
 
-        <div class="pl-8 print:hidden">
+        <div class="pl-2 print:hidden">
           <h4 class="mb-4 font-sans">
             Personal
           </h4>
           <ul class="mb-5 list-reset">
-            <li class="mt-2">
-              <i class="mr-1 icon-checkmark" />
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+
               Autodidact
             </li>
-            <li class="mt-2">
-              <i class="mr-1 icon-checkmark" />
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+
               Responsible
             </li>
-            <li class="mt-2">
-              <i class="mr-1 icon-checkmark" />
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+
               Proactive
             </li>
-            <li class="mt-2">
-              <i class="mr-1 icon-checkmark" />
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+
               Honest
             </li>
-            <li class="mt-2">
-              <i class="mr-1 icon-checkmark" />
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+
               Passionate
             </li>
           </ul>
@@ -457,43 +494,44 @@
           <github-heatmap><span class="block py-4">Loading...</span></github-heatmap> -->
         </div>
 
-        <div class="print:hidden">
-          <block-header class="" icon="bicycle2">
+        <div class="print:hidden mt-10 print:mt-4">
+          <block-header>
+            <template v-slot:icon>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+              </svg>
+            </template>
+            
             Hobbies
           </block-header>
-          <ul class="pl-10 list-reset">
-            <li class="mt-2">
+          <ul class="pl-2 list-reset">
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+              Music
+            </li>
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
+              Gadgets
+            </li>
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
               Runner
             </li>
-            <li class="mt-2">
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
               Triathlon Amateur
             </li>
-            <li class="mt-2">
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
               Bookworm
             </li>
-            <li class="mt-2">
+            <li class="mt-2 flex">
+              <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
               Entrepreneurship
             </li>
           </ul>
 
-          <block-header class="mt-10" icon="network">
-            More
-          </block-header>
-
-          <ul class="pl-10 list-reset">
-            <li class="pt-1 whitespace-no-wrap">
-              <i class="mr-1 icon-github" />
-              <a class="no-underline text-gray-900 hover:underline" rel="noopener" href="https://github.com/alfonsobries" target="_blank">
-                /alfonsobries
-              </a>
-            </li>
-            <li class="pt-1 whitespace-no-wrap">
-              <i class="mr-1 icon-earth" />
-              <a class="no-underline text-gray-900 hover:underline" rel="noopener" href="https://www.vexilo.com" target="_blank">
-                vexilo.com
-              </a>
-            </li>
-          </ul>
+          
         </div>
       </div>
     </div>
