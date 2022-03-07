@@ -28,10 +28,10 @@ const printResume = () => {
             </span>
           </div>
           <div class="px-4">
-            <h1 class="py-5 font-sans print:text-3xl text-5xl text-center uppercase md:py-0 md:text-left print:py-0 print:text-left">
+            <h1 class="py-5 font-sans print:text-3xl md:text-5xl leading-none md:leading-tight text-4xl text-center uppercase md:py-0 md:text-left print:py-0 print:text-left">
               Alfonso Bribiesca
             </h1>
-            <p class="font-serif text-2xl italic print:text-xl">
+            <p class="font-serif text-2xl italic print:text-xl text-center md:text-left text-gray-500 leading-none">
               Full Stack Software Developer
             </p>
           </div>
