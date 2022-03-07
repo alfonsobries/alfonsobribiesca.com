@@ -1,13 +1,24 @@
+<script setup lang="ts">
+  import Experience from './components/Experience.vue'
+  import BlockHeader from './components/BlockHeader.vue'
+  import Skill from './components/Skill.vue'
+  import Anchor from './components/Anchor.vue'
+  import Separator from './components/Separator.vue'
+
+  import Photo from './assets/img/photo.png'
+
+</script>
+
 <template>
   <div class="container py-10 mx-auto font-serif">
     <div>
-      <div class="items-center md:flex md:-mx-4">
-        <div class="md:flex md:w-3/5">
-          <div class="px-4 text-center flex-no-shrink">
+      <div class="items-center md:flex">
+        <div class="flex flex-col md:flex-row md:w-3/5 items-center">
+          <div class="px-4 text-center shrink-0">
             <span class="overflow-hidden rounded-full">
               <img
                 class="overflow-hidden rounded-full"
-                src="photo.png"
+                :src="Photo"
                 alt="Alfonso Bribiesca Espinosa"
               >
             </span>
@@ -22,42 +33,36 @@
           </div>
         </div>
 
-        <div class="px-4 mt-8 md:mt-0">
+        <div class="px-4 mt-8 md:mt-0 flex-grow">
           <h2 class="font-sans text-sm uppercase">
             Contact me
           </h2>
-          <hr class="border-b">
+          
+          <separator />
+          
           <ul class="list-reset">
-            <li class="pt-1 whitespace-no-wrap">
+            <li class="pt-1 whitespace-nowrap flex items-center">
               <i class="mr-1 icon-envelop" />
-              <a class="no-underline text-grey-darkest hover:underline" href="mailto:alfonso@vexilo.com">
-                alfonso@vexilo.com
-              </a>
+              <anchor href="mailto:alfonso@vexilo.com">alfonso@vexilo.com</anchor>
             </li>
-            <li class="pt-1 whitespace-no-wrap">
+            <li class="pt-1 whitespace-nowrap flex items-center">
               <i class="mr-1 icon-skype" />
-              <a class="no-underline text-grey-darkest hover:underline" href="skype:alfonso.bribiesca">
-                alfonso.bribiesca
-              </a>
+              <anchor href="skype:alfonso.bribiesca">alfonso.bribiesca</anchor>
             </li>
-            <li class="pt-1 whitespace-no-wrap">
+            <li class="pt-1 whitespace-nowrap flex items-center">
               <i class="mr-1 icon-twitter" />
-              <a class="no-underline text-grey-darkest hover:underline" rel="noopener" target="_blank" href="https://twitter.com/alfonsobries">
-                @alfonsobries
-              </a>
+              <anchor rel="noopener" target="_blank" href="https://twitter.com/alfonsobries">@alfonsobries</anchor>
             </li>
-            <li class="pt-1 whitespace-no-wrap">
+            <li class="pt-1 whitespace-nowrap flex items-center">
               <i class="mr-1 icon-github" />
-              <a class="no-underline text-grey-darkest hover:underline" rel="noopener" target="_blank" href="https://github.com/alfonsobries">
-                /alfonsobries
-              </a>
+              <anchor rel="noopener" target="_blank" href="https://github.com/alfonsobries">/alfonsobries</anchor>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="mt-8 md:flex md:-mx-4 md:mt-20">
+    <div class="mt-8 md:flex md:mt-10">
       <div class="px-4 pb-8 md:w-3/5">
         <block-header>
           Experience
@@ -68,7 +73,7 @@
           when="Oct 2021 - Present day (~2 year) | Remote"
           company="Ark"
         >
-          <p>I work remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://ark.io/" target="_blank">Ark</a> a blockchain solutions company working on his different open source and proprietary software products with technologies like Laravel, Alpine.js, and React.</p>
+          <p>I work remotely as a Full Stack Software Developer for <anchor href="https://ark.io/" target="_blank">Ark</anchor> a blockchain solutions company working on his different open source and proprietary software products with technologies like Laravel, Alpine.js, and React.</p>
         </experience>
 
         <experience
@@ -76,7 +81,7 @@
           when="May 2018 - Oct 2021 (~2 years) | Remote"
           company="Surgio"
         >
-          <p>I worked remotely as a Full Stack Software Developer for <a class="text-grey-darkest" href="https://www.surgio.com/" target="_blank">Surgio</a> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovating the frontend with all kinds of custom Vue components, improving the overall frontend workflow, implementing, even more, features in the backend and work with the team to standardize and improve the full application codebase.</p>
+          <p>I worked remotely as a Full Stack Software Developer for <anchor href="https://www.surgio.com/" target="_blank">Surgio</anchor> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovating the frontend with all kinds of custom Vue components, improving the overall frontend workflow, implementing, even more, features in the backend and work with the team to standardize and improve the full application codebase.</p>
         </experience>
 
         <experience
@@ -84,7 +89,7 @@
           when="Feb 2009 - Dic 2019 (10 years) | Mexico City"
           company="Vexilo"
         >
-          <p>I created the brand <a href="https://www.vexilo.com/en" class="text-grey-darkest" target="_blank">Vexilo</a> in which I developed more than 50 successful websites and web applications for all kinds of companies of all sizes in Mexico</p>
+          <p>I created the brand <anchor href="https://www.vexilo.com/en" target="_blank">Vexilo</anchor> in which I developed more than 50 successful websites and web applications for all kinds of companies of all sizes in Mexico</p>
         </experience>
 
         <experience
@@ -140,7 +145,7 @@
           website="https://github.com/alfonsobries"
         >
           <p class="mb-2">
-            Explore my Github profile for other open source tools and experiments like this <a target="_blank" class="text-grey-darkest" href="https://vue-minesweeper.vercel.app/">minesweeper clone</a> or this <a target="_blank" class="text-grey-darkest" href="https://movjs.vercel.app/">movies search engine</a>.
+            Explore my Github profile for other open source tools and experiments like this <anchor target="_blank" href="https://vue-minesweeper.vercel.app/">minesweeper clone</anchor> or this <anchor target="_blank" href="https://movjs.vercel.app/">movies search engine</anchor>.
           </p>
         </experience>
 
@@ -158,7 +163,7 @@
           <ul class="list-reset">
             <li class="flex mb-1">
               <i class="mr-2 icon-checkmark" />
-              <span>PHP, Vue, Laravel, & TDD Courses at <a class="text-grey-darkest" rel="noopener" href="https://laracasts.com/" target="_blank">Laracasts</a></span>
+              <span>PHP, Vue, Laravel, & TDD Courses at <anchor rel="noopener" href="https://laracasts.com/" target="_blank">Laracasts</anchor></span>
             </li>
             <li class="flex mb-1">
               <i class="mr-2 icon-checkmark" />
@@ -213,16 +218,16 @@
         </block-header>
 
         <div>
-          <h4 class="mt-1 font-sans uppercase text-gray-dark">
-            <span class="absolute text-3xl icon-medal-first text-grey-dark" />
+          <h4 class="mt-1 font-sans uppercase text-gray-dark mb-1">
+            <span class="absolute text-3xl icon-medal-first text-gray-500" />
             <span class="pl-8">Im an expert in:</span>
           </h4>
-          <p class="pl-8 mb-3 text-sm text-grey-dark">
+          <p class="pl-8 mb-3 text-sm text-gray-400">
             I have extensive knowledge of the technology, a portfolio, and enough experience to consider myself an expert and even teach others.
           </p>
 
           <div class="pl-8">
-            <h4 class="font-sans text-sm uppercase text-grey-dark">
+            <h4 class="font-sans text-sm uppercase text-gray-500">
               Frameworks & Tools
             </h4>
 
@@ -258,7 +263,7 @@
                 Bootstrap
               </skill>
             </ul>
-            <h4 class="font-sans text-sm uppercase text-grey-dark">
+            <h4 class="font-sans text-sm uppercase text-gray-500">
               Programmatic Languages
             </h4>
             <ul class="mb-5 list-reset">
@@ -276,7 +281,7 @@
               </skill>
             </ul>
 
-            <h4 class="font-sans text-sm uppercase text-grey-dark">
+            <h4 class="font-sans text-sm uppercase text-gray-500">
               Other Techs & Metodologies
             </h4>
             <ul class="mb-5 list-reset">
@@ -316,14 +321,14 @@
 
         <div>
           <h4 class="mt-1 font-sans uppercase text-gray-dark">
-            <span class="absolute text-3xl icon-medal-second text-grey-dark" />
+            <span class="absolute text-3xl icon-medal-second text-gray-500" />
             <span class="pl-8">I have strong knowledge:</span>
           </h4>
-          <p class="pl-8 mb-3 text-sm text-grey-dark">
+          <p class="pl-8 mb-3 text-sm text-gray-400">
             Most of my portfolio are personal projects or experiments, however I feel prepared to take any type of project with this technology.
           </p>
           <div class="ml-8">
-            <h4 class="font-sans text-sm uppercase text-grey-dark">
+            <h4 class="font-sans text-sm uppercase text-gray-500">
               Frameworks & Tools
             </h4>
 
@@ -339,7 +344,7 @@
               </skill>
             </ul>
 
-            <h4 class="font-sans text-sm uppercase text-grey-dark">
+            <h4 class="font-sans text-sm uppercase text-gray-500">
               Techs & Metodologies
             </h4>
             <ul class="mb-5 list-reset">
@@ -391,7 +396,7 @@
               Passionate
             </li>
           </ul>
-          <!-- <h4 class="font-sans text-sm uppercase text-grey-dark">
+          <!-- <h4 class="font-sans text-sm uppercase text-gray-500">
             Latest Github Activity
           </h4>
           <github-heatmap><span class="block py-4">Loading...</span></github-heatmap> -->
@@ -422,13 +427,13 @@
         <ul class="pl-10 list-reset">
           <li class="pt-1 whitespace-no-wrap">
             <i class="mr-1 icon-github" />
-            <a class="no-underline text-grey-darkest hover:underline" rel="noopener" href="https://github.com/alfonsobries" target="_blank">
+            <a class="no-underline text-gray-900 hover:underline" rel="noopener" href="https://github.com/alfonsobries" target="_blank">
               /alfonsobries
             </a>
           </li>
           <li class="pt-1 whitespace-no-wrap">
             <i class="mr-1 icon-earth" />
-            <a class="no-underline text-grey-darkest hover:underline" rel="noopener" href="https://www.vexilo.com" target="_blank">
+            <a class="no-underline text-gray-900 hover:underline" rel="noopener" href="https://www.vexilo.com" target="_blank">
               vexilo.com
             </a>
           </li>
@@ -437,22 +442,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import BlockHeader from '~/components/BlockHeader'
-import Experience from '~/components/Experience'
-import Skill from '~/components/Skill'
-import GithubHeatmap from '~/components/GithubHeatmap'
-
-export default {
-  components: {
-    BlockHeader,
-    Experience,
-    Skill,
-    GithubHeatmap
-  },
-  head: {
-    title: 'My Personal Resume'
-  }
-}
-</script>
