@@ -4,3 +4,5 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@page { size: Letter ;  margin: 0mm; }

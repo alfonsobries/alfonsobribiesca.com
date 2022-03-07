@@ -10,7 +10,7 @@
     </div>
     <div class="flex flex-row py-2">
       <span class="border-l w-8 ml-2 shrink-0 flex" />
-      <div class="pt-2 pb-8">
+      <div class="pt-2 pb-8 print:pt-0">
         <h4 class="mb-2 uppercase text-black flex space-x-2 justify-start" >
           <template v-if="company">
             <span class="uspanpercase mb-2" v-text="company" />
@@ -20,7 +20,7 @@
           <span v-text="title" class="text-gray-800"></span>
         </h4>
 
-        <div class="text-gray-700">
+        <div class="text-gray-700 print:text-sm">
           <slot />
         </div>
       </div>
