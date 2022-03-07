@@ -8,4 +8,9 @@
   ##  CUSTOM CLASSES
   --------------------------------------------------------- */
 
-  @import '../lib/icomoon/style.css';
+@import '../lib/icomoon/style.css';
+
+@page {
+  size: Letter;
+  margin: 0;
+}
