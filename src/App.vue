@@ -76,8 +76,7 @@ const printResume = () => {
               </anchor>
             </li>
 
-
-            <li class="pt-1 whitespace-nowrap flex items-center print:hidden mt-2 md:block hidden">
+            <li class="pt-1 whitespace-nowrap items-center print:hidden mt-2 md:flex hidden">
               <anchor button class="flex items-center text-sm" @click="printResume">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z" clip-rule="evenodd" />
@@ -309,7 +308,7 @@ const printResume = () => {
                 Frameworks & Tools
               </h4>
 
-              <ul class="mb-5 list-reset">
+              <ul class="mb-5 dark:text-gray-400">
                 <skill>
                   Laravel
                 </skill>
@@ -346,7 +345,7 @@ const printResume = () => {
               <h4 class="font-sans text-sm uppercase text-gray-500">
                 Programmatic Languages
               </h4>
-              <ul class="mb-5 list-reset">
+              <ul class="mb-5 dark:text-gray-400">
                 <skill>
                   PHP
                 </skill>
@@ -365,7 +364,7 @@ const printResume = () => {
               <h4 class="font-sans text-sm uppercase text-gray-500">
                 Other Techs & Metodologies
               </h4>
-              <ul class="mb-5 list-reset">
+              <ul class="mb-5 dark:text-gray-400">
                 <skill class="print:hidden">
                   MySQL/PostgreSQL
                 </skill>
@@ -415,7 +414,7 @@ const printResume = () => {
                 Frameworks & Tools
               </h4>
 
-              <ul class="mb-5 list-reset">
+              <ul class="mb-5 dark:text-gray-400">
                 <skill>
                   Web3
                 </skill>
@@ -432,7 +431,7 @@ const printResume = () => {
               <h4 class="font-sans text-sm uppercase text-gray-500">
                 Techs & Metodologies
               </h4>
-              <ul class="mb-5 list-reset">
+              <ul class="mb-5 dark:text-gray-400">
                 <skill>
                   Blockchain
                 </skill>
@@ -461,7 +460,7 @@ const printResume = () => {
           <h4 class="mb-4 font-sans">
             Personal
           </h4>
-          <ul class="mb-5 list-reset">
+          <ul class="mb-5 dark:text-gray-400">
             <li class="mt-2 flex">
               <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
 
@@ -504,7 +503,7 @@ const printResume = () => {
             
             Hobbies
           </block-header>
-          <ul class="pl-2 list-reset">
+          <ul class="pl-2 dark:text-gray-400">
             <li class="mt-2 flex">
               <Checkmark class="mr-1 w-5 h-5 text-gray-400 mt-0.5" />
               Music
