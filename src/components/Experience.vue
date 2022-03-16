@@ -26,7 +26,7 @@
       </div>
     </div>
     <div v-if="website" class="flex -mt-8">
-      <span class="w-10 flex items-start bg-white dark:bg-black py-2 pb-3 -mb-2 -mt-1.5 -ml-1">
+      <span class="w-10 flex items-start bg-white dark:bg-gray-900 py-2 pb-3 -mb-2 -mt-1.5 -ml-1">
         <span class="text-lg w-8 pl-1 text-gray-400 dark:text-gray-500  shrink-0 ">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
