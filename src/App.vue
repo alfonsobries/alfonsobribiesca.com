@@ -105,7 +105,7 @@ const printResume = () => {
           when="Oct 2021 - Present day (~2 year) | Remote"
           company="Ark"
         >
-          <p>I work remotely as a Full Stack Software Developer for <anchor href="https://ark.io/" target="_blank">Ark</anchor> a blockchain solutions company working on his different open source and proprietary software products with technologies like Laravel, Alpine.js, and React.</p>
+          <p>I work remotely as a Full Stack Software Developer for <anchor href="https://ark.io/" target="_blank">Ark</anchor> a blockchain solutions company working on his different open source and proprietary software products with technologies like React, Laravel and Alpine.js.</p>
         </experience>
 
         <experience
@@ -113,7 +113,7 @@ const printResume = () => {
           when="May 2018 - Oct 2021 (~2 years) | Remote"
           company="Surgio"
         >
-          <p>I worked remotely as a Full Stack Software Developer for <anchor href="https://www.surgio.com/" target="_blank">Surgio</anchor> a CRM designed for Hospitals where over time I help to increase the user experience by completely renovating the frontend with all kinds of custom Vue components, improving the overall frontend workflow, implementing, even more, features in the backend and work with the team to standardize and improve the full application codebase.</p>
+          <p>I worked remotely as a Full Stack Software Developer for <anchor href="https://www.surgio.com/" target="_blank">Surgio</anchor> a SaaS designed for manage hospitals where over time I help to increase the user experience by completely renovating the frontend with all kinds of custom Vue components, improving the overall frontend workflow, implementing, even more, features in the backend and work with the team to standardize and improve the full application codebase.</p>
         </experience>
 
         <experience
@@ -317,6 +317,9 @@ const printResume = () => {
                 </skill>
                 <skill>
                   React
+                </skill>
+                <skill>
+                  React Native
                 </skill>
                 <skill>
                   Redux
