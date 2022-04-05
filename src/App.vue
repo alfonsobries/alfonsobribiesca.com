@@ -176,11 +176,11 @@ const printResume = () => {
 
         <experience
           class="print:hidden"
-          title="Laravel/Node Spreadsheet importer"
-          website="https://github.com/alfonsobries/laravel-spreadsheet-importer"
+          title="React use form"
+          website="https://github.com/alfonsobries/react-use-form"
         >
           <p class="mb-2">
-            Laravel Package & npm cli tool that works together to read in seconds big spreadsheet files that are impossible to process into a typical PHP app (or consumes a lot of memory & time).
+            React hook for handling form states, requests, and validation, compatible with React and React Native.
           </p>
         </experience>
 
