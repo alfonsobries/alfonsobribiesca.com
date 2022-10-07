@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.alfonsobries.com/resume",
+      "permanent": true
+    }
+  ]
+}
